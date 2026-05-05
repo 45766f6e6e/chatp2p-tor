@@ -24,12 +24,12 @@ Supports **full P2P** communication between `.onion` addresses and can handle **
 
   ```bash
   make
-  ./out/chat <LOCAL_PORT> <PEER_ONION> <PEER_PORT>
+  ./out/chat-p2p-tor <LOCAL_PORT> <PEER_ONION> <PEER_PORT>
   ```
 * **Example:**
 
   ```bash
-  ./out/chat 12345 address.onion 12345
+  ./out/chat-p2p-tor 12345 address.onion 12345
   ```
 
 ---
@@ -58,12 +58,12 @@ Supports **full P2P** communication between `.onion` addresses and can handle **
 
   ```bash
   make
-  ./out/chat <LOCAL_PORT> <PEER_ONION> <PEER_PORT>
+  ./out/chat-p2p-tor <LOCAL_PORT> <PEER_ONION> <PEER_PORT>
   ```
 * **Пример:**
 
   ```bash
-  ./out/chat 12345 address.onion 12345
+  ./out/chat-p2p-tor 12345 address.onion 12345
   ```
 
 ---
@@ -92,10 +92,10 @@ Supports **full P2P** communication between `.onion` addresses and can handle **
 
   ```bash
   make
-  ./out/chat <LOCAL_PORT> <PEER_ONION> <PEER_PORT>
+  ./out/chat-p2p-tor <LOCAL_PORT> <PEER_ONION> <PEER_PORT>
   ```
 * **示例:**
 
   ```bash
-  ./out/chat 12345 address.onion 12345
+  ./out/chat-p2p-tor 12345 address.onion 12345
   ```
